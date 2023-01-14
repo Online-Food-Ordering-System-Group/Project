@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath OrderBackend OrderBackend.wsgi --log-file -
